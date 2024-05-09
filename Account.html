@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Furniture</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <div class="ANISHA">
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <div class="text-colour">FURNITURE</div>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="offer.html">Offer</a></li>
+                    <li><a href="Account.html">Account</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="cart.png.png" width="30px" height="30px">
+            <img src="menu icon.png.png" class="menu-icon"
+            onclick="menutoggle()">  
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+
+
+        <div class="madara">
+            <div class="wrapper">
+                <form action="">
+                    <h1>Login</h1>
+                    <div class="input-box-1">
+                        <input type="text" placeholder="Username" required><br>
+                        <box-icon name="user-circle"></box-icon><br>
+                    </div>
+                   <div class="input-box-1">
+                    <input type="password" placeholder="password" required><br>
+                    <box-icon type="Solid" name="lock"></box-icon>
+
+                   </div><br><br>
+                  <div class="remember-forgot">
+                    <label><input type="checkbox">Remember Me</label>
+                    <a href="">Forgot Password</a>
+                  </div>
+                  <button type="submit" class="btn-4">Login</button>
+                  <br><br><div class="regester-link">
+                    <p>Don't Haven Account? <a href="">Regester</a></p>
+                  </div>
+
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+         <!-------- Footer --------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3> Download our app</h3>
+                <p>Download app for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="https://i.pinimg.com/564x/25/60/bb/2560bbc828e28e3bede2f9023458b89e.jpg">
+                    <img src="https://i.pinimg.com/564x/20/8e/c3/208ec34130feffa6c2905e9c3575ae8c.jpg">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="logo.png.png">
+                <p></p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>YouTube</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2020</p>
+    </div>
+</div>
+
+               
+<!-------- js for toggle menu --------->
+<script>
+    var MenuItems= document.getElementById("MenuItems")
+    MenuItems.style.maxHeight ="0px";
+
+    function menutoggle(){
+        if (MenuItems.style.maxHeight =="0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>

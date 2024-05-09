@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Furniture</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <div class="text-colour">FURNITURE</div>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="offer.html">Offer</a></li>
+                    <li><a href="Account.html">Account</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul> 
+            </nav>
+            <img src="https://i.pinimg.com/236x/dc/08/1a/dc081ae9891091c57737274be324decc.jpg" width="30px" height="30px">
+            <img src="https://i.pinimg.com/236x/2c/a5/dd/2ca5dd324a4c40c205d9deb7e909baf9.jpg" class="menu-icon"
+            onclick="menutoggle()">  
+        </div>
+    </div>
+</div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-2">
+            <img src="https://logolook.net/wp-content/uploads/2021/06/Facebook-Logo-2019.png" width="130px">
+            <h1>Contact With us on Facebook</h1>
+            <p>Our official Facebook page </p>
+            <a href="https://www.facebook.com/RegalFurnitureBangladesh" class="btn">Click</a>
+        </div>
+        <div class="col-2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1280px-Logo_of_YouTube_%282015-2017%29.svg.png" width="130px">
+            <h1>Stay With us on YouTube</h1>
+            <p>Our official YouTube page </p>
+            <a href="https://youtube.com/@RegalFurnitureBangladesh?si=Xa-DrRPvYWlpcP_e" class="btn">Click</a>
+        </div>
+    </div>
+</div>
+ <!-------- Footer --------->
+ <br><br><br><br><br><div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3> Download our app</h3>
+                <p>Download app for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="https://i.pinimg.com/564x/25/60/bb/2560bbc828e28e3bede2f9023458b89e.jpg">
+                    <img src="https://i.pinimg.com/564x/20/8e/c3/208ec34130feffa6c2905e9c3575ae8c.jpg">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="logo.png.png">
+                <p></p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>YouTube</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 1999/p>
+    </div>
+</div>
+
+               
+<!-------- js for toggle menu --------->
+<script>
+    var MenuItems= document.getElementById("MenuItems")
+    MenuItems.style.maxHeight ="0px";
+
+    function menutoggle(){
+        if (MenuItems.style.maxHeight =="0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
